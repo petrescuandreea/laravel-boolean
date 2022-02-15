@@ -9,8 +9,10 @@
                         <p>
                             {{ postcard.text}}
                         </p>
-                        <p>
-                            {{postcard.image}}
+                        
+                        <img v-if="postcard.image" :src="'/storage/postcards/' + postcard.image" width="500px" >
+                        <p v-else>
+                            No image added
                         </p>
                     </div>
                 </div>
