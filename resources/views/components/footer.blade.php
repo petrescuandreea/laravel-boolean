@@ -1,5 +1,5 @@
 <footer>
-    <h3>
-        Bye!
-    </h3>
+    <h5>
+        Thank you for visiting our page!
+    </h5>
 </footer>
