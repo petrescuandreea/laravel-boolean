@@ -1929,6 +1929,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -38201,13 +38203,18 @@ var render = function () {
                 ),
               ]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n                        " +
-                    _vm._s(postcard.image) +
-                    "\n                    "
-                ),
-              ]),
+              postcard.image
+                ? _c("img", {
+                    attrs: {
+                      src: "/storage/postcards/" + postcard.image,
+                      width: "500px",
+                    },
+                  })
+                : _c("p", [
+                    _vm._v(
+                      "\n                        No image added\n                    "
+                    ),
+                  ]),
             ]),
           ])
         }),

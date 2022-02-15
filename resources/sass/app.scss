@@ -10,4 +10,33 @@
 
 body {
     text-align: center;
+    background-color: darkslategray;
+}
+
+header h1, footer h5 {
+    color:burlywood;
+    padding: 25px;
+}
+
+// forms 
+section.forms {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    color: white;
+}
+
+
+// postcards 
+.container {
+    padding: 20px 0;
+
+    .btn {
+        margin: 20px 10px;
+    }
+
+    .card {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 }

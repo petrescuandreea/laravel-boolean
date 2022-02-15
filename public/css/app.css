@@ -10964,5 +10964,32 @@ a.text-dark:focus {
 
 body {
   text-align: center;
+  background-color: darkslategray;
+}
+
+header h1,
+footer h5 {
+  color: burlywood;
+  padding: 25px;
+}
+
+section.forms {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  color: white;
+}
+
+.container {
+  padding: 20px 0;
+}
+
+.container .btn {
+  margin: 20px 10px;
+}
+
+.container .card {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
