@@ -1,5 +1,5 @@
 <header>
     <h1>
-        Postcards
+        Welcome to our postcards collection
     </h1>
 </header>
